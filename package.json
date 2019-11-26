@@ -1,6 +1,7 @@
 {
-	"name": "dynatrace-message-reader",
-	"displayName": "Dynatrace-Message-Reader",
+	"name": "dyn-message-reader",
+	"publisher": "daniele",
+	"displayName": "Dyn-Message-Reader",
 	"description": "Remove xml syntax and decode xml entities with one command",
 	"version": "0.0.1",
 	"engines": {
@@ -10,13 +11,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.dynatraceMessageReader"
+		"onCommand:extension.dynMessageReader"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.dynatraceMessageReader",
+				"command": "extension.dynMessageReader",
 				"title": "Dynatrace: convert selection to clear text"
 			}
 		]
