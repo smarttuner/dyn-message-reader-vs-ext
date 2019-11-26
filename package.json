@@ -3,7 +3,7 @@
 	"publisher": "daniele",
 	"displayName": "Dyn-Message-Reader",
 	"description": "Remove xml syntax and decode xml entities with one command",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -18,7 +18,7 @@
 		"commands": [
 			{
 				"command": "extension.dynMessageReader",
-				"title": "Dynatrace: convert selection to clear text"
+				"title": "DynMessageReader: convert selection to clear text"
 			}
 		]
 	},
